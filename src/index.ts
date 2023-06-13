@@ -18,5 +18,15 @@ form?.addEventListener("submit", e => {
     completed: false,
     createdAt: new Date()
    }
-    input.value
+    
+   addListItem(newTask)
 })
+
+function addListItem(task: {
+    id: string;
+    title: string;
+    completed: boolean;
+    createdAt: Date;
+}) {
+
+}
